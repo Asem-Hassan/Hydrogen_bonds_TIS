@@ -1,0 +1,132 @@
+<ForceField>
+  <AtomTypes>
+    <Type name="0" class="P" element="P" mass="62.974"/>
+    <Type name="1" class="S" element="S" mass="131.106"/>
+    <Type name="2" class="ADE" element="Ar" mass="134.132"/>
+    <Type name="3" class="GUA" element="Ga" mass="150.132"/>
+    <Type name="4" class="CYT" element="C"  mass="110.102"/>
+    <Type name="5" class="URA" element="U"  mass="111.084"/>
+    <Type name="6" class="CA" element="Ca"  mass="40.077"/>
+    <Type name="7" class="MG" element="Mg"  mass="24.30506"/>
+    <Type name="8" class="NA" element="Na"  mass="22.989769282"/>
+    <Type name="9" class="K" element="K"  mass="39.09831"/>
+    <Type name="10" class="CL" element="Cl"  mass="35.4532"/>
+  </AtomTypes>
+  <Residues>
+    <Residue name="ADE">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="A" type="2"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="P"/>
+      <ExternalBond atomName="S"/>
+    </Residue>
+    <Residue name="ADET">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="A" type="2"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="P"/>
+    </Residue>
+    <Residue name="ADES">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="A" type="2"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="S"/>
+    </Residue>
+    <Residue name="GUA">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="G" type="3"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="P"/>
+      <ExternalBond atomName="S"/>
+    </Residue>
+    <Residue name="GUAT">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="G" type="3"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="P"/>
+    </Residue>
+    <Residue name="GUAS">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="G" type="3"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="S"/>
+    </Residue>
+    <Residue name="CYT">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="C" type="4"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="P"/>
+      <ExternalBond atomName="S"/>
+    </Residue>
+    <Residue name="CYTT">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="C" type="4"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="P"/>
+    </Residue>
+    <Residue name="CYTS">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="C" type="4"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="S"/>
+    </Residue>
+    <Residue name="URA">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="U" type="5"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="P"/>
+      <ExternalBond atomName="S"/>
+    </Residue>
+    <Residue name="URAT">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="U" type="5"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="P"/>
+    </Residue>
+    <Residue name="URAS">
+      <Atom name="P" type="0"/>
+      <Atom name="S" type="1"/>
+      <Atom name="U" type="5"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <ExternalBond atomName="S"/>
+    </Residue>
+    <Residue name="CA">
+      <Atom name="CA" type="6"/>
+    </Residue>
+    <Residue name="MG">
+      <Atom name="MG" type="7"/>
+    </Residue>
+    <Residue name="NA">
+      <Atom name="NA" type="8"/>
+    </Residue>
+    <Residue name="K">
+      <Atom name="K" type="9"/>
+    </Residue>
+    <Residue name="CL">
+      <Atom name="CL" type="10"/>
+    </Residue>
+  </Residues>
+</ForceField>
